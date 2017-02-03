@@ -1,12 +1,12 @@
 /*Comment
  This is a interactive java program that uses's Java's arithmetic operators as well as the Scanner object 
  to obtain input from the user. This program will perform the following operations. 
- the opposite of n is y
-   n doubled is y
-   one-half of n is y
-   n squared is y
-   the reciprocal of n is y
-   one-tenth of n is y and y squared is z
+ the opposite of n is opp
+   n doubled is twice
+   one-half of n is half
+   n squared is squared
+   the reciprocal of n is recip
+   one-tenth of n is tenth and tenth squared is tenthsq
    n minus the last digit of n is y
    the sum of n and n+1 and n+2 is y
  */
@@ -18,7 +18,15 @@ public class Arithmetic {
 		System.out.print("Enter an integer: ");
 		int n = scan.nextInt();
 		int opp, twice, minus;
-		double half, squared, recip, tenth, sum;
+		double half, squared, recip, tenth, tenthsq, sum;
+		
+		opp = -n;
+		twice = n *2;
+		half = n/2; 
+		squared = n^2;
+		recip = 1/n;
+		
+		
 	}
 
 }
