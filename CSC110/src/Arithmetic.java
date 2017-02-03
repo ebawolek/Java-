@@ -23,10 +23,11 @@ public class Arithmetic {
 		opp = -n;
 		twice = n *2;
 		half = n/2; 
-		squared = n^2;
+		squared = Math.pow(n, 2);
 		recip = 1/n;
-		
-		
+		tenth = n *(1/10);
+		tenthsq = Math.pow(tenth, 2);
+		//testing git
 	}
 
 }
